@@ -1,0 +1,99 @@
+header{
+    display: flex;
+    padding: 20px;
+    /* margin-bottom: 30px; */
+    background-color: lightgoldenrodyellow;
+    margin-bottom: 60px;
+}
+
+header.dark{
+    display: flex;
+    padding: 20px;
+    /* margin-bottom: 30px; */
+    background-color: rgb(80, 80, 6);
+    margin-bottom: 60px;
+}
+
+body{
+    background-color: silver;
+    margin: 0;
+}
+
+body.dark {
+    background-color: rgb(61, 55, 55);
+    margin: 0;
+}
+
+.foto {
+    width: 100px;
+}
+
+.container{
+    display: grid;
+    margin: auto;
+    grid-template-areas:
+        "edu exp skil";
+    gap: 5px;
+    background-color: white;
+    padding: 20px;
+    max-width: 800px;
+}
+/* 
+.container.dark{
+    display: grid;
+    margin: auto;
+    grid-template-areas:
+        "edu exp skil";
+    gap: 5px;
+    background-color: rgb(13, 13, 71);
+    padding: 20px;
+    max-width: 800px;
+} */
+
+.education{
+    grid-area: edu;
+    background-color: white;
+}
+
+/* .education.dark{
+    grid-area: edu;
+    background-color: rgb(13, 13, 71);
+} */
+
+.experience{
+    grid-area: exp;
+    background-color: white;
+}
+
+.skills{
+    grid-area: skil;
+    background-color: white;
+}
+
+.nama {
+    /* display: inline; */
+    margin-left: 20px;
+    padding: 5px;
+}
+
+h4 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: brown;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.icon {
+    width: 30px;
+}
+
+account{
+    display: flex;
+    padding: 10px;
+    background-color: gray;
+}
